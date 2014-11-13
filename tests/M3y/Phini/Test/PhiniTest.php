@@ -23,4 +23,13 @@ class PhiniTest extends \PHPUnit_Framework_TestCase
     {
         $ini = new Phini('illegal.ini');
     }
+
+    /**
+     * @test
+     */
+    public function 設定ファイルにない値を取得した場合、nullがかえること()
+    {
+        $ini = new Phini(__DIR__.DIRECTORY_SEPARATOR."test.ini");
+        $this->assertNull($ini->nothing);
+    }
 }
