@@ -23,7 +23,7 @@ class Phini
     public function __construct($iniFilepath, $processSections = false)
     {
         if (!is_readable($iniFilepath)) {
-            throw new \RuntimeException("No such readable file: $filepath");
+            throw new \RuntimeException("No such readable file: $iniFilepath");
         }
 
         $config = parse_ini_file($iniFilepath, $processSections);
