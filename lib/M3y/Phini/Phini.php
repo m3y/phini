@@ -2,6 +2,11 @@
 
 namespace M3y\Phini;
 
+/**
+ * Phini.
+ *
+ * Phini is ini file utility.
+ */
 class Phini
 {
     /**
