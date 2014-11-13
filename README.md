@@ -2,6 +2,8 @@ phini
 =====
 [![Build Status](https://travis-ci.org/m3y/phini.svg?branch=master)](https://travis-ci.org/m3y/phini)
 [![Coverage Status](https://coveralls.io/repos/m3y/phini/badge.png?branch=master)](https://coveralls.io/r/m3y/phini?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/m3y/phini/v/stable.svg)](https://packagist.org/packages/m3y/phini)
+[![License](https://poser.pugx.org/m3y/phini/license.svg)](https://packagist.org/packages/m3y/phini)
 
 概要
 ----
