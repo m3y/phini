@@ -49,3 +49,9 @@ $ini = new M3y\Phini\Phini('/path/to/inifile.ini');
 print $ini->key11; // value11
 print $ini->key3[0]; // value31
 ```
+
+テスト実行
+----------
+```
+$ phpunit
+```
