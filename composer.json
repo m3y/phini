@@ -1,0 +1,26 @@
+{
+    "name": "m3y/phini",
+    "description": "ini file utility",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/m3y/phini",
+    "authors": [
+        {
+            "name": "Masaya Ozawa",
+            "email": "ma3ya.ozw+github@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3",
+        "satooshi/php-coveralls": "0.6.1",
+        "psy/psysh": "~0.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "M3y": "lib/"
+        }
+    }
+}

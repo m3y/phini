@@ -1,0 +1,22 @@
+<phpunit
+    bootstrap="vendor/autoload.php"
+    convertErrorsToExceptions="true"
+    convertNoticesToExceptions="true"
+    convertWarningsToExceptions="true"
+    colors="true"
+    stopOnError="true"
+    stopOnFailure="true"
+    strict="true"
+    verbose="true">
+
+    <testsuites>
+        <testsuite name="M3y Configuration Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <php>
+        <includePath>.</includePath>
+        <ini name="date.timezone" value="Asia/Tokyo" />
+    </php>
+</phpunit>
